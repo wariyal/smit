@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment form</title>
+  </head>
+  <body bgcolor="Cornsilk">
+    <ul>
+      <li><a href="../../index.html">Back To Home</a></li>
+    </ul>
+    <h1 align="center">Addmission FORM</h1>
+    <form action="" align="center">
+      <label for="name">Name:</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Enter Your Name...."
+        required
+      />
+      <br /><br />
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter Your Email...."
+        required
+      />
+      <br /><br />
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Enter Your Password...."
+        required
+      />
+      <br /><br />
+      <label for="cnic">Cnic#:</label>
+      <input
+        type="number"
+        id="cnic"
+        name="cnic"
+        placeholder="Enter Your Cnic Number...."
+      />
+      <br /><br />
+      <label for="Mobile">Mobile Number</label>
+      <input
+        type="number"
+        id="mobile"
+        name="mobile"
+        placeholder="Enter Your Mobile Number...."
+      />
+      <br /><br />
+      <label for="country">Country</label>
+      <select name="country" id="country">
+        <option value="" selected>Choose Your country</option>
+        <option value="pakistan">Pakistan</option>
+        <option value="china">China</option>
+        <option value="india">India</option>
+        <option value="usa">USA</option>
+        <option value="japan">japan</option>
+      </select>
+      <br /><br />
+      <label>Gender:</label><br />
+      <input type="radio" id="male" name="gender" value="male" checked />
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label>
+      <input type="radio" id="other" name="gender" value="other" />
+      <label for="other">Other</label>
+      <br /><br />
+      <label>Choose Two Program:</label><br />
+      <input type="checkbox" id="bba" name="program" value="bba" />
+      <label for="bba">BBA</label>
+      <input type="checkbox" id="it" name="program" value="it" />
+      <label for="it">IT</label>
+      <input type="checkbox" id="cs" name="program" value="cs" />
+      <label for="cs">CS</label>
+      <input type="checkbox" id="ai" name="program" value="ai" />
+      <label for="ai">AI</label>
+      <input type="checkbox" id="commerce" name="program" value="commerce" />
+      <label for="commerce">Commerce</label>
+      <input type="checkbox" id="english" name="program" value="english" />
+      <label for="english">English</label>
+      <br /><br />
+      <label for="d_o_b">Date Of Birth:</label>
+      <input type="date" name="date" id="date" required />
+      <br /><br />
+      <label for="address">Address:</label>
+      <textarea
+        name="address"
+        id="address"
+        cols="20"
+        rows="10"
+        placeholder="Enter Your Residential Address...."
+        required
+      ></textarea>
+      <br /><br />
+      <!-- Upload Image Field -->
+      <label for="image">Upload Image:</label>
+      <input type="file" id="image" name="image" required /><br /><br />
+
+      <!-- Submit Button -->
+      <input type="submit" value="submit form" name="button" />
+    </form>
+  </body>
+</html>
